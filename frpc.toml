@@ -1,10 +1,21 @@
-serverAddr = "3389.iis7.net"
-serverPort = 65502
+# 中国-香港-ZREAM | 移动优化线路,支持IPV4 IPV6,由ZREAM捐助
+serverAddr = "cn.hk.zream1.hayfrp.ink"
+serverPort = 1
+transport.tcpMux = true
+transport.protocol = "tcp"
+transport.tls.enable = false
+user = "7d2a8fd4172f6566"
+auth.token = "ConnectHayFrpTokenWelcomToUseOurCloudServiceDonttellyourtokentotheotherpeoplesbecauseyouwilllostyouraccount"
+dnsServer = "223.5.5.5"
 
+# 隧道 #10323 的配置文件(上次更新于 2024-09-26 22:42)
 [[proxies]]
-
-name = "TDTP1bb11520"
+name = "giffer"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 4444
+
 remotePort = 4444
+transport.useEncryption = true
+transport.useCompression = true
+
