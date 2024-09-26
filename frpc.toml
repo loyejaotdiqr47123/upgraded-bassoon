@@ -1,0 +1,10 @@
+serverAddr = "3389.iis7.net"
+serverPort = 65502
+
+[[proxies]]
+
+name = "TDTP1bb11520"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 4444
+remotePort = 4444
