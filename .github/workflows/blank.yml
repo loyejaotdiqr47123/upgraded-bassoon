@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Setup WARP
-        run: bash <(curl -fsSL git.io/warp.sh) wpd
+        run: sudo bash <(curl -fsSL git.io/warp.sh) wpd
       - name: Cloudflare pages build
         uses: Cyb3r-Jak3/actions-cloudflare-pages@v2.0.0
         with:
