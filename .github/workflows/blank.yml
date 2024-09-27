@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Setup WARP
-        uses: fscarmen/warp-on-actions@v2
+        uses: fscarmen/warp-on-actions@1.1
       - name: Cloudflare pages build
         uses: Cyb3r-Jak3/actions-cloudflare-pages@v2.0.0
         with:
