@@ -1,6 +1,6 @@
-# 中国-香港-ZREAM | 移动优化线路,支持IPV4 IPV6,由ZREAM捐助
-serverAddr = "cn.hk.zream1.hayfrp.ink"
-serverPort = 1
+# 新加坡-新加坡-新加坡800M | 每月500g,移动直连，其它绕美,别用来穿透vmess节点会被封
+serverAddr = "sg.sg.sgserver.hayfrp.ink"
+serverPort = 8000
 transport.tcpMux = true
 transport.protocol = "tcp"
 transport.tls.enable = false
@@ -8,9 +8,9 @@ user = "7d2a8fd4172f6566"
 auth.token = "ConnectHayFrpTokenWelcomToUseOurCloudServiceDonttellyourtokentotheotherpeoplesbecauseyouwilllostyouraccount"
 dnsServer = "223.5.5.5"
 
-# 隧道 #10323 的配置文件(上次更新于 2024-09-26 22:42)
+# 隧道 #10336 的配置文件(上次更新于 2024-09-27 19:59)
 [[proxies]]
-name = "giffer"
+name = "giffer-1"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 4444
